@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Integrate Quest Widget
+This document serves as a guide to integrating Bandit Quest into a React project utilizing Bandit Quest Widget.
 
-## Getting Started
+Bandit's widget simplifies the process of incorporating Bandit Quest into your react app.
 
-First, run the development server:
+## Demo
+A working demo of the complete integration can be found here: https://quest-widget-demo.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Prerequisites
+React project set up
+Bandit API key
+
+### Steps
+1. Install the Quest Domain Widget
+Install the @bandit-network/quest-widget package:
+
+npm install @bandit-network/quest-widget
+
+2. Import and Initialize the widget
+In your React project, import the QuestWidget component and initialize it within your component, passing your Bandit API key:
+
+```ts
+import { QuestWidget } from "@bandit-network/quest-widget";
+
+export default function Home() {
+
+  return (
+     <QuestWidget
+        apiKey="YOUR_BANDIT_API_KEY"
+        collectionId="COLLECTION_ID"
+        cluster="devnet"
+        dialog={true}
+      />
+  );
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Widget Configuration
+Configure the widget by setting the following props:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `apiKey`: Your API key.
+- `collectionId`: The ID of your collection.
+- `cluster`: The network cluster (e.g., "devnet" or "mainnet").
+- `dialog`: Set to true for modal dialog display. Use local state with isOpen & onClose props for more control.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+That's it! You've integrated the Bandit Quest Widget into your React project. For any queries or assistance, feel free to reach out.
