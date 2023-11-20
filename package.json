@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@bandit-network/quest-widget": "0.0.1-alpha.3",
+    "@bandit-network/quest-widget": "0.0.1-alpha.4",
     "next": "14.0.2",
     "pino-pretty": "^10.2.3",
     "react": "^18",

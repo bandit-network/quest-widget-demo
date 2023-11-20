@@ -9,13 +9,12 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
       <button className="text-white text-sm rounded-sm bg-black p-2" onClick={() => setIsOpen(true)}>Open quest</button>
       <QuestWidget
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
           apiKey={apiKey as string}
-          collectionId={3443}
+          collectionId={3444}
           cluster="devnet"
           dialog={true}
       />

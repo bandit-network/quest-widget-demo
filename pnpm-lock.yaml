@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@bandit-network/quest-widget':
-    specifier: 0.0.1-alpha.3
-    version: 0.0.1-alpha.3(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(bs58@4.0.1)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)(webpack@5.89.0)
+    specifier: 0.0.1-alpha.4
+    version: 0.0.1-alpha.4(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(bs58@4.0.1)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)(webpack@5.89.0)
   next:
     specifier: 14.0.2
     version: 14.0.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
@@ -1497,8 +1497,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@bandit-network/chain-book@0.0.1-alpha.3(@types/react@18.2.37)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-12iSK+C2TKywgnWxJBGAFYr8mHP3/Cjvgk3MAgOnOHq6MwHmikirdtWTPjfO5bpWn5awFBEptVVoIp70hdq1hQ==}
+  /@bandit-network/chain-book@0.0.1-alpha.4(@types/react@18.2.37)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-g+ZnjJvaG7F/upXEdqKOQ/JIoASXogsmTznvQMlwlv3LgE/zGvDVi8rgPDj4yeg6zZTSd5vGNU81FHQaUqhIQg==}
     dependencies:
       '@wagmi/core': 1.4.7(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)
       viem: 1.19.3(typescript@5.2.2)
@@ -1529,10 +1529,10 @@ packages:
       - zod
     dev: false
 
-  /@bandit-network/quest-sdk@0.0.1-alpha.2(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-0xJNJ7SBMIJ2Q1VlPs6V5DvO2K06mE4sFOrsFclyK8AHDHGlveblNMECwdD0UUHl5SFOGFXTqxqbsGjGOqOx+w==}
+  /@bandit-network/quest-sdk@0.0.1-alpha.3(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-mVxg0J+vGDpZPo+fNfPFcTqx45oA8QKe0852IJdjKWntkooL47fiX6mU+ToqOyjd3dmHOpabmJynbjpnAVXb+A==}
     dependencies:
-      '@bandit-network/sdk-api': 0.0.1-alpha.3
+      '@bandit-network/sdk-api': 0.0.1-alpha.4
       '@bandit-network/utils': 0.0.1-alpha.1
       '@metaplex-foundation/umi': 0.8.10
       '@wagmi/core': 1.4.7(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)
@@ -1561,13 +1561,13 @@ packages:
       - zod
     dev: false
 
-  /@bandit-network/quest-widget@0.0.1-alpha.3(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(bs58@4.0.1)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)(webpack@5.89.0):
-    resolution: {integrity: sha512-O4aLb/U0ALjUULcmkQLLgaUTUGDzR6LChHCwPqyiI05OpQXjKrEn+TdbuPAkXKozw/Hr6ClnDK1iplDvvz0D/A==}
+  /@bandit-network/quest-widget@0.0.1-alpha.4(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(bs58@4.0.1)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)(viem@1.19.3)(webpack@5.89.0):
+    resolution: {integrity: sha512-JCvX1kzOu3EZMkmxHOy/Dg+etLgSP32jdCbnFNzkZlDlhvwV1ejW8pe0s/mcC0rzG97tztHOTVxoBh/vWtT/2Q==}
     dependencies:
-      '@bandit-network/quest-sdk': 0.0.1-alpha.2(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2)
-      '@bandit-network/react-ui-kit': 0.0.1-alpha.3(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
-      '@bandit-network/react-wallet-kit': 0.0.1-alpha.3(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-native@0.72.7)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
-      '@bandit-network/sdk-api': 0.0.1-alpha.3
+      '@bandit-network/quest-sdk': 0.0.1-alpha.3(@types/react@18.2.37)(react@18.2.0)(typescript@5.2.2)
+      '@bandit-network/react-ui-kit': 0.0.1-alpha.4(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
+      '@bandit-network/react-wallet-kit': 0.0.1-alpha.4(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-native@0.72.7)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
+      '@bandit-network/sdk-api': 0.0.1-alpha.4
       '@bandit-network/tsconfig': 0.0.1-alpha.1
       '@bandit-network/utils': 0.0.1-alpha.1
       '@radix-ui/react-icons': 1.3.0(react@18.2.0)
@@ -1610,8 +1610,8 @@ packages:
       - zod
     dev: false
 
-  /@bandit-network/react-ui-kit@0.0.1-alpha.3(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0):
-    resolution: {integrity: sha512-BKPfxq+gvBSm9ISmB7an1qYULMS4p5Pbmn19J/27wMBq9ErNKejGSHy8A+C67TEhZjgtsXt6uq72xkhlNhGGQw==}
+  /@bandit-network/react-ui-kit@0.0.1-alpha.4(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0):
+    resolution: {integrity: sha512-QWyBgMahGW8kBfOVUb14N33O1mHOpoViR7G8gKGgy+rwZueQ/tuFs02qr+MQaMa7K8hrPneu83XXzuKh734fdQ==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1646,12 +1646,12 @@ packages:
       - webpack
     dev: false
 
-  /@bandit-network/react-wallet-kit@0.0.1-alpha.3(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-native@0.72.7)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0):
-    resolution: {integrity: sha512-zvn2p0etx5BZsw4y2PSnt5iKDjhiE6VFV9HuAShcdlnzsGHBNq3CtSVLwn5zETw/Xb9tTRtiBLDubCFmLabwbQ==}
+  /@bandit-network/react-wallet-kit@0.0.1-alpha.4(@babel/runtime@7.23.2)(@solana/web3.js@1.87.6)(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-native@0.72.7)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0):
+    resolution: {integrity: sha512-4lk05eZhX17wUR47y0hgXAwnsitZYjQRs17Fwb++T831iSrglxkdAcBXUpJpN7f9XXJyM/xWVR6sfs7gccm4DA==}
     dependencies:
-      '@bandit-network/chain-book': 0.0.1-alpha.3(@types/react@18.2.37)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)
-      '@bandit-network/react-ui-kit': 0.0.1-alpha.3(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
-      '@bandit-network/sdk-api': 0.0.1-alpha.3
+      '@bandit-network/chain-book': 0.0.1-alpha.4(@types/react@18.2.37)(react-dom@18.2.0)(react-native@0.72.7)(react@18.2.0)(typescript@5.2.2)
+      '@bandit-network/react-ui-kit': 0.0.1-alpha.4(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.3.5)(typescript@5.2.2)(webpack@5.89.0)
+      '@bandit-network/sdk-api': 0.0.1-alpha.4
       '@metaplex-foundation/umi': 0.8.10
       '@metaplex-foundation/umi-bundle-defaults': 0.8.10(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.87.6)
       '@metaplex-foundation/umi-signer-wallet-adapters': 0.8.10(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.87.6)
@@ -1697,8 +1697,8 @@ packages:
       - zod
     dev: false
 
-  /@bandit-network/sdk-api@0.0.1-alpha.3:
-    resolution: {integrity: sha512-33e9gJDbjkeeH0LbcmVOB85rSWjJzMtiXDh9Pk08ri+23kA86ENsCKNYlUmSscVXXo6XqhtuTurwsFkmW4Ebgg==}
+  /@bandit-network/sdk-api@0.0.1-alpha.4:
+    resolution: {integrity: sha512-MkyM41TCLgL0tL8YmT/RlMNFYSgFmcvEMsWz6iO4yyimYR5TLR1w73jSqkRpO7O8nYRbVefuTzPSdbwnruUSRg==}
     dev: false
 
   /@bandit-network/tsconfig@0.0.1-alpha.1:
